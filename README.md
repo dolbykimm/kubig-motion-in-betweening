@@ -23,6 +23,8 @@ T=20: L2Q=0.0656 L2P=0.0042 NPSS=0.0203 (n=134664)
 
 T=30: L2Q=0.0845 L2P=0.0055 NPSS=0.0325 (n=126206)
 
+<video src="results/gt_vs_baseline_135_T20.mp4" controls width="700"></video>
+
 ## v1. 모델 확장 (`exp01_bigger_model/`, d_model=512, 19M)
 
 **구현 내용**
@@ -42,7 +44,7 @@ T=20: L2Q=0.0627 L2P=0.0040 NPSS=0.0196 (n=134664)
 
 T=30: L2Q=0.0822 L2P=0.0054 NPSS=0.0320 (n=126206)
 
-![gt vs exp01](results/gt_vs_exp01_135_T20.gif)
+<video src="results/gt_vs_exp01_135_T20.mp4" controls width="700"></video>
 
 ## v2. 잔차 예측 (`exp02_residual_prediction/`)
 
@@ -62,7 +64,7 @@ T=20: L2Q=0.0652 L2P=0.0042 NPSS=0.0200 (n=134664)
 
 T=30: L2Q=0.0845 L2P=0.0055 NPSS=0.0324 (n=126206)
 
-![gt vs exp02](results/gt_vs_exp02_135_T20.gif)
+<video src="results/gt_vs_exp02_135_T20.mp4" controls width="700"></video>
 
 ## v3. 다양성 유도 손실 (`exp04_diversity_loss/`)
 
@@ -84,7 +86,7 @@ T=20: L2Q=0.0657 L2P=0.0042 NPSS=0.0223 (n=134664)
 
 T=30: L2Q=0.0849 L2P=0.0055 NPSS=0.0382 (n=126206)
 
-![gt vs exp04](results/gt_vs_exp04_135_T20.gif)
+<video src="results/gt_vs_exp04_135_T20.mp4" controls width="700"></video>
 
 ## v4. 속도 매칭 손실 (`exp05_velocity_loss/`)
 
@@ -104,7 +106,7 @@ T=20: L2Q=0.0663 L2P=0.0043 NPSS=0.0204 (n=134664)
 
 T=30: L2Q=0.0852 L2P=0.0056 NPSS=0.0326 (n=126206)
 
-![gt vs exp05](results/gt_vs_exp05_135_T20.gif)
+<video src="results/gt_vs_exp05_135_T20.mp4" controls width="700"></video>
 
 ## v5. SILK 원 논문 크기 (`exp06_full_silk_size/`, d_model=1024, 76M)
 
@@ -124,7 +126,7 @@ T=20: L2Q=0.0621 L2P=0.0040 NPSS=0.0195 (n=134664)
 
 T=30: L2Q=0.0817 L2P=0.0053 NPSS=0.0318 (n=126206)
 
-![gt vs exp06](results/gt_vs_exp06_135_T20.gif)
+<video src="results/gt_vs_exp06_135_T20.mp4" controls width="700"></video>
 
 ## 데이터 / 표현 공통사항
 
